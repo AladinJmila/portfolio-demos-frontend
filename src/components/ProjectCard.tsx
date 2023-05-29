@@ -8,11 +8,12 @@ export interface Project {
 
 interface Props {
   project: Project;
+  onFlip: () => void;
 }
 
-const ProjectCard = ({ project }: Props) => {
+const ProjectCard = ({ project, onFlip }: Props) => {
   return (
-    <div className='project-card'>
+    <div onClick={onFlip} className='project-card'>
       <img src={project.image} />
       <h3>{project.title}</h3>
     </div>

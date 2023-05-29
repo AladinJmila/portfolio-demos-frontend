@@ -1,0 +1,13 @@
+.project-details {
+  height: 100vh;
+  margin-top: 60px;
+  position: relative;
+  width: 1400px;
+  text-align: center;
+}
+
+.return-btn {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
