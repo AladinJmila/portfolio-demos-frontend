@@ -1,11 +1,7 @@
 import { useEffect, useState } from 'react';
 import { projectsList } from '../data/db';
-
-interface Project {
-  id: number;
-  title: string;
-  image: string;
-}
+import ProjectCard, { Project } from './ProjectCard';
+import './ProjectsGrid.css';
 
 const PojectsGrid = () => {
   const [projects, setProjects] = useState<Project[]>([]);
@@ -15,11 +11,11 @@ const PojectsGrid = () => {
   }, []);
 
   return (
-    <ul>
+    <div className='projects-grid'>
       {projects.map(project => (
-        <li key={project.id}>{project.title}</li>
+        <ProjectCard key={project.id} project={project} />
       ))}
-    </ul>
+    </div>
   );
 };
 

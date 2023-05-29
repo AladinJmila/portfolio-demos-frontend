@@ -1,12 +1,12 @@
 import { useState } from 'react';
 
 import './App.css';
-import PojectsGrid from './components/PojectsList';
+import ProjectsGrid from './components/ProjectsGrid';
 
 function App() {
   return (
     <>
-      <PojectsGrid />
+      <ProjectsGrid />
     </>
   );
 }

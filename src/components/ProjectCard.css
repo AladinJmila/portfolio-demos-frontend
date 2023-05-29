@@ -1,0 +1,13 @@
+.project-card {
+  border: 2px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.project-card img {
+  width: 100%;
+}
