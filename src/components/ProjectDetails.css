@@ -1,13 +1,19 @@
 .project-details {
   height: 100vh;
   margin-top: 60px;
-  position: relative;
   width: 1400px;
-  text-align: center;
 }
 
-.return-btn {
-  position: absolute;
-  left: 0;
-  top: 0;
+.project-details .chevron {
+  margin: 0 5px;
+}
+.project-details .bread-crumbs {
+  text-align: left;
+}
+
+.project-details .header {
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }

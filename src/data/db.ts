@@ -2,7 +2,7 @@ export const projectsList = [
   {
     id: 1,
     title: 'Project A',
-    image: 'https://dummyimage.com/640x360/fff/aaa',
+    image: '/public/images/study-room.PNG',
     features: [
       {
         id: 11,
@@ -23,7 +23,7 @@ export const projectsList = [
   {
     id: 2,
     title: 'Project B',
-    image: 'https://dummyimage.com/640x360/fff/aaa',
+    image: '/public/images/study-room.PNG',
     features: [
       {
         id: 21,
@@ -44,7 +44,7 @@ export const projectsList = [
   {
     id: 3,
     title: 'Project C',
-    image: 'https://dummyimage.com/640x360/fff/aaa',
+    image: '/public/images/study-room.PNG',
     features: [
       {
         id: 31,

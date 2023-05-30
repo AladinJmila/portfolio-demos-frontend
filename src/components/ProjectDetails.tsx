@@ -10,10 +10,13 @@ const ProjectDetails = ({ project, onFlip }: Props) => {
   return (
     <div className='project-details'>
       <div className='header'>
-        <button className='return-btn' onClick={onFlip}>
-          All Projects
-        </button>
         <h2>{project?.title}</h2>
+        <p className='bread-crumbs'>
+          <a className='return-btn' href='' onClick={onFlip}>
+            All Projects
+          </a>
+          <span className='chevron'>&gt;</span> {project?.title}
+        </p>
       </div>
     </div>
   );
