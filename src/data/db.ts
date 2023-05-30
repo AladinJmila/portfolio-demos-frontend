@@ -1,8 +1,22 @@
 export const projectsList = [
   {
     id: 1,
-    title: 'Project A',
+    title: 'My Studyroom',
+    type: 'Full Stack',
     image: '/public/images/study-room.PNG',
+    techStack: [
+      'React',
+      'Redux',
+      'Express',
+      'Mongoose',
+      'MongoDB',
+      'Python',
+      'JWT',
+      'YouTube API',
+      'D3.js',
+      'Bootstrap',
+      'Heroku',
+    ],
     features: [
       {
         id: 11,
@@ -22,8 +36,20 @@ export const projectsList = [
   },
   {
     id: 2,
-    title: 'Project B',
+    title: 'Dynamic Tutorials',
+    type: 'Full Stack',
     image: '/public/images/study-room.PNG',
+    techStack: [
+      'Express',
+      'Mongoose',
+      'MongoDB',
+      'Passport',
+      'Webpack',
+      'Handlebars',
+      'Babel',
+      'GridFS',
+    ],
+
     features: [
       {
         id: 21,
@@ -43,8 +69,39 @@ export const projectsList = [
   },
   {
     id: 3,
-    title: 'Project C',
+    title: 'Emotions Diray',
     image: '/public/images/study-room.PNG',
+    type: 'Front End',
+    techStack: ['React', 'D3.js', 'PWA', 'json-server'],
+    features: [
+      {
+        id: 31,
+        title: 'Feature 1',
+        gif: 'https://dummyimage.com/640x360/aaa/fff',
+        description: 'Description of Feature 1',
+        codeSnippet: 'Code snippet for Feature 1',
+      },
+      {
+        id: 32,
+        title: 'Feature 2',
+        gif: 'https://dummyimage.com/640x360/aaa/fff',
+        description: 'Description of Feature 2',
+        codeSnippet: 'Code snippet for Feature 2',
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: 'Advanced Job Filtering',
+    image: '/public/images/study-room.PNG',
+    type: 'Chrome Extension',
+    techStack: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'Service Workers',
+      'Chrome Extension API',
+    ],
     features: [
       {
         id: 31,
