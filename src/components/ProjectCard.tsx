@@ -7,6 +7,7 @@ export interface Project {
   image: string;
   type: string;
   techStack: string[];
+  url: string;
 }
 
 interface Props {

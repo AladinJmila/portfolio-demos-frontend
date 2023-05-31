@@ -4,6 +4,7 @@ export const projectsList = [
     title: 'My Studyroom',
     type: 'Full Stack',
     image: '/public/images/study-room.PNG',
+    url: 'https://cryptic-harbor-13426.herokuapp.com/',
     techStack: [
       'React',
       'Redux',
@@ -39,6 +40,7 @@ export const projectsList = [
     title: 'Dynamic Tutorials',
     type: 'Full Stack',
     image: '/public/images/study-room.PNG',
+    url: 'https://cryptic-harbor-13426.herokuapp.com/',
     techStack: [
       'Express',
       'Mongoose',
@@ -72,6 +74,7 @@ export const projectsList = [
     title: 'Emotions Diray',
     image: '/public/images/study-room.PNG',
     type: 'Front End',
+    url: 'https://cryptic-harbor-13426.herokuapp.com/',
     techStack: ['React', 'D3.js', 'PWA', 'json-server'],
     features: [
       {
@@ -95,6 +98,7 @@ export const projectsList = [
     title: 'Advanced Job Filtering',
     image: '/public/images/study-room.PNG',
     type: 'Chrome Extension',
+    url: 'https://cryptic-harbor-13426.herokuapp.com/',
     techStack: [
       'HTML',
       'CSS',

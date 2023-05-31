@@ -1,8 +1,9 @@
 .projects-grid {
-  max-width: 1400px;
+  max-width: 1200px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
+  column-gap: 20px;
+  row-gap: 30px;
 }
 
 .projects-grid img {

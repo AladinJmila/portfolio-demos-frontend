@@ -9,7 +9,7 @@ interface Props {
 const ProjectDetails = ({ project, onFlip }: Props) => {
   return (
     <div className='project-details'>
-      <div className='header'>
+      <div className='project-header'>
         <h2>{project?.title}</h2>
         <p className='bread-crumbs'>
           <a className='return-btn' href='' onClick={onFlip}>
@@ -17,6 +17,11 @@ const ProjectDetails = ({ project, onFlip }: Props) => {
           </a>
           <span className='chevron'>&gt;</span> {project?.title}
         </p>
+      </div>
+      <div className='project-body'>
+        {project?.url && (
+          <iframe className='project-iframe' src={project.url}></iframe>
+        )}
       </div>
     </div>
   );
