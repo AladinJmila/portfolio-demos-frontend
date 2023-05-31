@@ -9,10 +9,15 @@
 
 .feature-details img {
   width: 100%;
+  border-radius: 8px;
 }
 
 .feature-details .emgithub-container {
   width: 100%;
+}
+.file-data.hljs-style-github-dark-dimmed {
+  max-height: 550px;
+  overflow: auto;
 }
 .emgithub-file .code-area td.hljs-ln-line {
   font-size: 16px !important;

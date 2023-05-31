@@ -24,14 +24,16 @@ export const projectsList = [
         title: 'Feature 1',
         gif: 'https://dummyimage.com/640x360/aaa/fff',
         description: 'Description of Feature 1',
-        codeSnippet: 'Code snippet for Feature 1',
+        codeSnippet:
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fportfolio-demos%2Fblob%2Fmaster%2Fsrc%2Fcomponents%2FProjectCard.tsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
       },
       {
         id: 12,
         title: 'Feature 2',
         gif: 'https://dummyimage.com/640x360/aaa/fff',
         description: 'Description of Feature 2',
-        codeSnippet: 'Code snippet for Feature 2',
+        codeSnippet:
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fportfolio-demos%2Fblob%2Fmaster%2Fsrc%2Fcomponents%2FProjectDetails.tsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
       },
     ],
   },
@@ -58,14 +60,16 @@ export const projectsList = [
         title: 'Feature 1',
         gif: 'https://dummyimage.com/640x360/aaa/fff',
         description: 'Description of Feature 1',
-        codeSnippet: 'Code snippet for Feature 1',
+        codeSnippet:
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fportfolio-demos%2Fblob%2Fmaster%2Fsrc%2Fcomponents%2FProjectsGrid.tsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
       },
       {
         id: 22,
         title: 'Feature 2',
         gif: 'https://dummyimage.com/640x360/aaa/fff',
         description: 'Description of Feature 2',
-        codeSnippet: 'Code snippet for Feature 2',
+        codeSnippet:
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fportfolio-demos%2Fblob%2Fmaster%2Fsrc%2Fcomponents%2FProjectDetails.tsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
       },
     ],
   },
@@ -82,14 +86,16 @@ export const projectsList = [
         title: 'Feature 1',
         gif: 'https://dummyimage.com/640x360/aaa/fff',
         description: 'Description of Feature 1',
-        codeSnippet: 'Code snippet for Feature 1',
+        codeSnippet:
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fportfolio-demos%2Fblob%2Fmaster%2Fsrc%2Fcomponents%2FProjectCard.tsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
       },
       {
         id: 32,
         title: 'Feature 2',
         gif: 'https://dummyimage.com/640x360/aaa/fff',
         description: 'Description of Feature 2',
-        codeSnippet: 'Code snippet for Feature 2',
+        codeSnippet:
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fportfolio-demos%2Fblob%2Fmaster%2Fsrc%2Fcomponents%2FProjectsGrid.tsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
       },
     ],
   },
@@ -112,14 +118,16 @@ export const projectsList = [
         title: 'Feature 1',
         gif: 'https://dummyimage.com/640x360/aaa/fff',
         description: 'Description of Feature 1',
-        codeSnippet: 'Code snippet for Feature 1',
+        codeSnippet:
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fportfolio-demos%2Fblob%2Fmaster%2Fsrc%2Fcomponents%2FProjectDetails.tsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
       },
       {
         id: 32,
         title: 'Feature 2',
         gif: 'https://dummyimage.com/640x360/aaa/fff',
         description: 'Description of Feature 2',
-        codeSnippet: 'Code snippet for Feature 2',
+        codeSnippet:
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fportfolio-demos%2Fblob%2Fmaster%2Fsrc%2Fcomponents%2FProjectsGrid.tsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
       },
     ],
   },

@@ -4,21 +4,27 @@ import { useEffect } from 'react';
 
 interface Props {
   feature?: Feature;
+  index: number;
 }
 
-let inserted = false;
-
-const FeatureDetails = ({ feature }: Props) => {
+const FeatureDetails = ({ feature, index }: Props) => {
+  let inserted = false;
   useEffect(() => {
-    if (!inserted) {
-      const fd = document.querySelector('.feature-details');
-      const script = document.createElement('script');
-      script.src =
-        'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fportfolio-demos%2Fblob%2Fmaster%2Fsrc%2Fcomponents%2FProjectCard.tsx&style=atom-one-dark&type=code&showLineNumbers=on&showFullPath=on';
+    let fd: HTMLElement[] | null;
+    setTimeout(() => {
+      if (!inserted) {
+        fd = Array.from(document.querySelectorAll('.feature-details'));
+        const script = document.createElement('script');
+        script.src = feature?.codeSnippet || '';
 
-      fd?.appendChild(script);
-      inserted = true;
-    }
+        fd[index]?.appendChild(script);
+        inserted = true;
+      }
+    }, 500);
+
+    return () => {
+      fd && fd[index]?.remove();
+    };
   }, []);
 
   return (
