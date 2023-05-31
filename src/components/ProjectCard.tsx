@@ -1,6 +1,14 @@
 import Chip from './Chip';
 import './ProjectCard.css';
 
+export interface Feature {
+  id: number;
+  title: string;
+  gif: string;
+  description: string;
+  codeSnippet: string;
+}
+
 export interface Project {
   id: number;
   title: string;
@@ -8,6 +16,7 @@ export interface Project {
   type: string;
   techStack: string[];
   url: string;
+  features: Feature[];
 }
 
 interface Props {

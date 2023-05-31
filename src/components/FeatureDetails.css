@@ -1,0 +1,20 @@
+.feature-details {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+  margin-bottom: 40px;
+  width: 1000px;
+}
+
+.feature-details img {
+  width: 100%;
+}
+
+.feature-details .emgithub-container {
+  width: 100%;
+}
+.emgithub-file .code-area td.hljs-ln-line {
+  font-size: 16px !important;
+  line-height: 24px !important;
+}

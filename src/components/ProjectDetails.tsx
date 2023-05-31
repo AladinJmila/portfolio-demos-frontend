@@ -1,3 +1,4 @@
+import FeatureDetails from './FeatureDetails';
 import { Project } from './ProjectCard';
 import './ProjectDetails.css';
 
@@ -22,6 +23,8 @@ const ProjectDetails = ({ project, onFlip }: Props) => {
         {project?.url && (
           <iframe className='project-iframe' src={project.url}></iframe>
         )}
+
+        <FeatureDetails feature={project?.features[0]} />
       </div>
     </div>
   );

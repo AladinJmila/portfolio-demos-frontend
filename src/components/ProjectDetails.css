@@ -21,7 +21,7 @@
 
 .project-details .project-body {
   display: flex;
-  justify-content: center;
+  align-items: center;
   flex-direction: column;
   row-gap: 40px;
 }
@@ -30,5 +30,4 @@
   width: 1000px;
   height: 700px;
   border: 0;
-  align-self: center;
 }
