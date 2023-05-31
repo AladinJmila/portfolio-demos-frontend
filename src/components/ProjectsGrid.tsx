@@ -6,7 +6,7 @@ import ProjectDetails from './ProjectDetails';
 
 const PojectsGrid = () => {
   const [projects, setProjects] = useState<Project[]>([]);
-  const [selectedProject, setSlectedProject] = useState<Project | null>(null);
+  const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [flip, setFilp] = useState(false);
 
   useEffect(() => {
@@ -26,7 +26,7 @@ const PojectsGrid = () => {
           project={project}
           onFlip={() => {
             handleFlip();
-            setSlectedProject(project);
+            setSelectedProject(project);
           }}
         />
       ))}

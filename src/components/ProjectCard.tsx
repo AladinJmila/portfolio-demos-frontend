@@ -1,4 +1,3 @@
-import Chip from './Chip';
 import './ProjectCard.css';
 
 export interface Feature {
@@ -31,7 +30,9 @@ const ProjectCard = ({ project, onFlip }: Props) => {
       <div className='project-meta-data'>
         <div className='tech-stack'>
           {project.techStack.map(tech => (
-            <Chip key={tech} text={tech} />
+            <div key={tech} className='chip'>
+              {tech}
+            </div>
           ))}
         </div>
         <div className='project-title'>

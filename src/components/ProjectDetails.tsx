@@ -3,7 +3,7 @@ import { Project } from './ProjectCard';
 import './ProjectDetails.css';
 
 interface Props {
-  project?: Project;
+  project: Project | null;
   onFlip: () => void;
 }
 
