@@ -10,20 +10,20 @@ interface Props {
 const FeatureDetails = ({ feature, index }: Props) => {
   let inserted = false;
   useEffect(() => {
-    let fd: HTMLElement[] | null;
+    let fd: HTMLElement | null;
     setTimeout(() => {
       if (!inserted) {
-        fd = Array.from(document.querySelectorAll('.feature-details'));
+        fd = document.querySelector('.feature-details');
         const script = document.createElement('script');
         script.src = feature?.codeSnippet || '';
 
-        fd[index]?.appendChild(script);
+        fd?.appendChild(script);
         inserted = true;
       }
     }, 500);
 
     return () => {
-      fd && fd[index]?.remove();
+      fd && fd?.remove();
     };
   }, []);
 
