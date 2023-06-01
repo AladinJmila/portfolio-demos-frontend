@@ -12,6 +12,10 @@
   border-radius: 8px;
 }
 
+.feature-details .code-snippet-container {
+  width: 100%;
+}
+
 .feature-details .emgithub-container {
   width: 100%;
 }

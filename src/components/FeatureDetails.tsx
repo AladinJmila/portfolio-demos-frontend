@@ -1,29 +1,28 @@
 import { Feature } from './ProjectCard';
 import './FeatureDetails.css';
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 
 interface Props {
   feature?: Feature;
-  index: number;
 }
 
-const FeatureDetails = ({ feature, index }: Props) => {
+const FeatureDetails = ({ feature }: Props) => {
+  const codeSnippetRef = useRef<HTMLDivElement>(null);
+
   let inserted = false;
   useEffect(() => {
-    let fd: HTMLElement | null;
-    setTimeout(() => {
-      if (!inserted) {
-        fd = document.querySelector('.feature-details');
-        const script = document.createElement('script');
-        script.src = feature?.codeSnippet || '';
+    const codeSnippet = codeSnippetRef.current;
+    let script: HTMLScriptElement;
+    if (!inserted) {
+      script = document.createElement('script');
+      script.src = feature?.codeSnippet || '';
 
-        fd?.appendChild(script);
-        inserted = true;
-      }
-    }, 500);
+      codeSnippet && codeSnippet.appendChild(script);
+      inserted = true;
+    }
 
     return () => {
-      fd && fd?.remove();
+      // codeSnippet?.remove(script)
     };
   }, []);
 
@@ -32,6 +31,7 @@ const FeatureDetails = ({ feature, index }: Props) => {
       <h3>{feature?.title}</h3>
       <img src={feature?.gif} />
       <p>{feature?.description}</p>
+      <div className='code-snippet-container' ref={codeSnippetRef}></div>
     </div>
   );
 };

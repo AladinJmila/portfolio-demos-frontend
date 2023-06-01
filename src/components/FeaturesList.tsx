@@ -16,7 +16,7 @@ const FeaturesList = ({ features }: Props) => {
       ))}
       {features?.map((feature, index) => {
         return activeFeature === feature.id ? (
-          <FeatureDetails key={feature.id} feature={feature} index={index} />
+          <FeatureDetails key={feature.id} feature={feature} />
         ) : null;
       })}
     </div>
