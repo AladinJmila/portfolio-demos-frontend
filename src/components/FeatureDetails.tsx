@@ -1,12 +1,13 @@
 import { Feature } from './ProjectCard';
 import './FeatureDetails.css';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 interface Props {
   feature?: Feature;
 }
 
 const FeatureDetails = ({ feature }: Props) => {
+  const [toggleView, setToggleView] = useState(true);
   const codeSnippetRef = useRef<HTMLDivElement>(null);
 
   let inserted = false;
@@ -22,16 +23,25 @@ const FeatureDetails = ({ feature }: Props) => {
     }
 
     return () => {
-      // codeSnippet?.remove(script)
+      // codeSnippet?.removeChild(script);
     };
-  }, []);
+  }, [toggleView]);
 
   return (
     <div className='feature-details'>
       <h3>{feature?.title}</h3>
-      <img src={feature?.gif} />
+      <nav>
+        <button onClick={() => setToggleView(true)}>Gif</button>
+        <button onClick={() => setToggleView(false)}>Code</button>
+      </nav>
+      <div className='feature-media'>
+        {toggleView ? (
+          <img src={feature?.gif} />
+        ) : (
+          <div className='code-snippet-container' ref={codeSnippetRef}></div>
+        )}
+      </div>
       <p>{feature?.description}</p>
-      <div className='code-snippet-container' ref={codeSnippetRef}></div>
     </div>
   );
 };

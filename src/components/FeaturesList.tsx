@@ -12,9 +12,11 @@ const FeaturesList = ({ features }: Props) => {
   return (
     <div className='features-list'>
       {features?.map(f => (
-        <button onClick={() => setActiveFeature(f.id)}>{f.title}</button>
+        <button key={f.id + 'x'} onClick={() => setActiveFeature(f.id)}>
+          {f.title}
+        </button>
       ))}
-      {features?.map((feature, index) => {
+      {features?.map(feature => {
         return activeFeature === feature.id ? (
           <FeatureDetails key={feature.id} feature={feature} />
         ) : null;
