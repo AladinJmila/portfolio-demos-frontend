@@ -7,6 +7,22 @@
   width: 1000px;
 }
 
+.feature-details nav {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.feature-details nav button {
+  min-width: 100px;
+  padding: 4px 8px;
+}
+
+.feature-details .feature-media {
+  width: 100%;
+  min-height: 550px;
+}
+
 .feature-details img {
   width: 100%;
   border-radius: 8px;
