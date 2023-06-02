@@ -1,21 +1,14 @@
-import { useState } from 'react';
 import FeatureDetails from './FeatureDetails';
 import { Feature } from './ProjectCard';
 
 interface Props {
   features?: Feature[];
+  activeFeature?: number;
 }
 
-const FeaturesList = ({ features }: Props) => {
-  const [activeFeature, setActiveFeature] = useState(features?.[0].id);
-
+const FeaturesList = ({ features, activeFeature }: Props) => {
   return (
     <div className='features-list'>
-      {features?.map(f => (
-        <button key={f.id + 'x'} onClick={() => setActiveFeature(f.id)}>
-          {f.title}
-        </button>
-      ))}
       {features?.map(feature => {
         return activeFeature === feature.id ? (
           <FeatureDetails key={feature.id} feature={feature} />
