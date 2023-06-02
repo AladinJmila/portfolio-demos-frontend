@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState, useRef } from 'react';
 
 import FeaturesNav from './FeaturesNav';
 import FeaturesList from './FeaturesList';
@@ -13,6 +13,14 @@ interface Props {
 const ProjectDetails = ({ project, onFlip }: Props) => {
   const [activeFeature, setActiveFeature] = useState(project?.features?.[0].id);
 
+  // const featuresListRef = useRef<HTMLDivElement>(null);
+  const featuresListRef = useRef<HTMLDivElement>(null);
+
+  const handleFeatureClick = (id: number) => {
+    setActiveFeature(id);
+    featuresListRef.current && featuresListRef.current.scrollIntoView();
+  };
+
   return (
     <div className='project-details'>
       <div className='project-info'>
@@ -26,7 +34,7 @@ const ProjectDetails = ({ project, onFlip }: Props) => {
           </p>
           <FeaturesNav
             features={project?.features}
-            handleClick={setActiveFeature}
+            handleClick={handleFeatureClick}
           />
         </div>
       </div>
@@ -39,6 +47,7 @@ const ProjectDetails = ({ project, onFlip }: Props) => {
         <FeaturesList
           features={project?.features}
           activeFeature={activeFeature}
+          featuresListRef={featuresListRef}
         />
       </div>
     </div>
