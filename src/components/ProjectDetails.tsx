@@ -13,7 +13,6 @@ interface Props {
 const ProjectDetails = ({ project, onFlip }: Props) => {
   const [activeFeature, setActiveFeature] = useState(project?.features?.[0].id);
 
-  // const featuresListRef = useRef<HTMLDivElement>(null);
   const featureRef = useRef<HTMLDivElement>(null);
 
   const handleFeatureClick = (id: number) => {
@@ -40,6 +39,7 @@ const ProjectDetails = ({ project, onFlip }: Props) => {
             <FeaturesNav
               features={project?.features}
               handleClick={handleFeatureClick}
+              activeFeature={activeFeature}
             />
           </div>
         </div>

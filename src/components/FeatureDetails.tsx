@@ -32,8 +32,18 @@ const FeatureDetails = ({ feature, featureRef }: Props) => {
     <div ref={featureRef} className='feature-details'>
       <h3>{feature?.title}</h3>
       <nav>
-        <button onClick={() => setToggleView(true)}>Gif</button>
-        <button onClick={() => setToggleView(false)}>Code</button>
+        <button
+          className={toggleView ? 'active' : ''}
+          onClick={() => setToggleView(true)}
+        >
+          Gif
+        </button>
+        <button
+          className={toggleView ? '' : 'active'}
+          onClick={() => setToggleView(false)}
+        >
+          Code
+        </button>
       </nav>
       <div className='feature-media'>
         {toggleView ? (

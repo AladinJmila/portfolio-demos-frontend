@@ -4,7 +4,7 @@
   grid-template-columns: 1fr 4fr;
   margin-top: 80px;
   width: 1400px;
-  /* position: relative; */
+  padding: 0 40px;
 }
 
 .project-details .sticky-content {
@@ -22,7 +22,6 @@
 }
 
 .project-details .project-header {
-  text-align: center;
   position: relative;
   display: flex;
   flex-direction: column;
