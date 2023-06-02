@@ -14,28 +14,34 @@ const ProjectDetails = ({ project, onFlip }: Props) => {
   const [activeFeature, setActiveFeature] = useState(project?.features?.[0].id);
 
   // const featuresListRef = useRef<HTMLDivElement>(null);
-  const featuresListRef = useRef<HTMLDivElement>(null);
+  const featureRef = useRef<HTMLDivElement>(null);
 
   const handleFeatureClick = (id: number) => {
     setActiveFeature(id);
-    featuresListRef.current && featuresListRef.current.scrollIntoView();
+    if (featureRef.current)
+      featureRef.current.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center',
+      });
   };
 
   return (
     <div className='project-details'>
       <div className='project-info'>
-        <div className='project-header'>
-          <h2>{project?.title}</h2>
-          <p className='bread-crumbs'>
-            <a className='return-btn' href='' onClick={onFlip}>
-              All Projects
-            </a>
-            <span className='chevron'>&gt;</span> {project?.title}
-          </p>
-          <FeaturesNav
-            features={project?.features}
-            handleClick={handleFeatureClick}
-          />
+        <div className='sticky-content'>
+          <div className='project-header'>
+            <h2>{project?.title}</h2>
+            <p className='bread-crumbs'>
+              <a className='return-btn' href='' onClick={onFlip}>
+                All Projects
+              </a>
+              <span className='chevron'>&gt;</span> {project?.title}
+            </p>
+            <FeaturesNav
+              features={project?.features}
+              handleClick={handleFeatureClick}
+            />
+          </div>
         </div>
       </div>
 
@@ -47,7 +53,7 @@ const ProjectDetails = ({ project, onFlip }: Props) => {
         <FeaturesList
           features={project?.features}
           activeFeature={activeFeature}
-          featuresListRef={featuresListRef}
+          featureRef={featureRef}
         />
       </div>
     </div>

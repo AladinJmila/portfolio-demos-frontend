@@ -4,9 +4,10 @@ import { useEffect, useRef, useState } from 'react';
 
 interface Props {
   feature?: Feature;
+  featureRef: React.LegacyRef<HTMLDivElement>;
 }
 
-const FeatureDetails = ({ feature }: Props) => {
+const FeatureDetails = ({ feature, featureRef }: Props) => {
   const [toggleView, setToggleView] = useState(true);
   const codeSnippetRef = useRef<HTMLDivElement>(null);
 
@@ -28,7 +29,7 @@ const FeatureDetails = ({ feature }: Props) => {
   }, [toggleView]);
 
   return (
-    <div className='feature-details'>
+    <div ref={featureRef} className='feature-details'>
       <h3>{feature?.title}</h3>
       <nav>
         <button onClick={() => setToggleView(true)}>Gif</button>

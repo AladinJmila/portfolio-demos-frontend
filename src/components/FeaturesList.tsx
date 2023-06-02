@@ -1,19 +1,22 @@
-import React from 'react';
 import FeatureDetails from './FeatureDetails';
 import { Feature } from './ProjectCard';
 
 interface Props {
   features?: Feature[];
   activeFeature?: number;
-  featuresListRef: React.LegacyRef<HTMLDivElement>;
+  featureRef: React.LegacyRef<HTMLDivElement>;
 }
 
-const FeaturesList = ({ features, activeFeature, featuresListRef }: Props) => {
+const FeaturesList = ({ features, activeFeature, featureRef }: Props) => {
   return (
-    <div ref={featuresListRef} className='features-list'>
+    <div className='features-list'>
       {features?.map(feature => {
         return activeFeature === feature.id ? (
-          <FeatureDetails key={feature.id} feature={feature} />
+          <FeatureDetails
+            key={feature.id}
+            feature={feature}
+            featureRef={featureRef}
+          />
         ) : null;
       })}
     </div>
