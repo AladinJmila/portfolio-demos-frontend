@@ -1,5 +1,6 @@
 .project-card {
   border-radius: 10px;
+  padding: 10px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -8,6 +9,16 @@
   justify-content: space-between;
   cursor: pointer;
   gap: 10px;
+  position: relative;
+  overflow: visible;
+  margin-bottom: 30px;
+  border: 1px solid rgb(229, 229, 229);
+  background-color: #fff;
+}
+
+.project-card .image-container {
+  overflow: hidden;
+  border-radius: 8px 8px 0 0;
 }
 
 .project-card .project-meta-data {
@@ -26,12 +37,14 @@
 }
 
 .project-card .project-title {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   column-gap: 10px;
-  border-top: 1px solid rgba(0, 0, 0, 0.3);
   padding-top: 10px;
   font-weight: 700 !important;
+  position: absolute;
+  bottom: -55px;
+  width: 100%;
+  left: 0;
 }
 
 .chip {

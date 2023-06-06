@@ -3,7 +3,8 @@ export const projectsList = [
     id: 1,
     title: 'My Studyroom',
     type: 'Full Stack',
-    image: '/public/images/study-room.PNG',
+    image:
+      'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/my-study-room/study-room.PNG',
     url: 'https://cryptic-harbor-13426.herokuapp.com/',
     techStack: [
       'React',

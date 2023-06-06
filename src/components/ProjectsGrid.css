@@ -2,13 +2,9 @@
   max-width: 1200px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 20px;
-  row-gap: 30px;
-}
-
-.projects-grid img {
-  width: 100;
-  height: auto;
+  /* column-gap: 20px;
+  row-gap: 30px; */
+  gap: 40px;
 }
 
 @media screen and (max-width: 860px) {

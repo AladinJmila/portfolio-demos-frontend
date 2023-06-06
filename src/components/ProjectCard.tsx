@@ -26,7 +26,9 @@ interface Props {
 const ProjectCard = ({ project, onFlip }: Props) => {
   return (
     <div onClick={onFlip} className='project-card'>
-      <img src={project.image} />
+      <div className='image-container'>
+        <img src={project.image} />
+      </div>
       <div className='project-meta-data'>
         <div className='tech-stack'>
           {project.techStack.map(tech => (
