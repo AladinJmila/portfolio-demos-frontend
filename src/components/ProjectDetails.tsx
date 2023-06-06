@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import { useState, useRef } from 'react';
 
 import FeaturesNav from './FeaturesNav';
 import FeaturesList from './FeaturesList';
