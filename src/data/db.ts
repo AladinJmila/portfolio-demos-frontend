@@ -42,7 +42,8 @@ export const projectsList = [
     id: 2,
     title: 'Dynamic Tutorials',
     type: 'Full Stack',
-    image: '/public/images/study-room.PNG',
+    image:
+      'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/my-study-room/study-room.PNG',
     url: 'https://cryptic-harbor-13426.herokuapp.com/',
     techStack: [
       'Express',
@@ -77,7 +78,8 @@ export const projectsList = [
   {
     id: 3,
     title: 'Emotions Diray',
-    image: '/public/images/study-room.PNG',
+    image:
+      'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/my-study-room/study-room.PNG',
     type: 'Front End',
     url: 'https://cryptic-harbor-13426.herokuapp.com/',
     techStack: ['React', 'D3.js', 'PWA', 'json-server'],
@@ -103,7 +105,8 @@ export const projectsList = [
   {
     id: 4,
     title: 'Advanced Job Filtering',
-    image: '/public/images/study-room.PNG',
+    image:
+      'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/my-study-room/study-room.PNG',
     type: 'Chrome Extension',
     url: 'https://cryptic-harbor-13426.herokuapp.com/',
     techStack: [
