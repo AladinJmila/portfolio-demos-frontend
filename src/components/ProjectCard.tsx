@@ -1,4 +1,8 @@
 import './ProjectCard.css';
+import {
+  getContrastColor,
+  techColorMap,
+} from './../services/tech-stack-colorcode';
 
 export interface Feature {
   id: number;
@@ -24,6 +28,27 @@ interface Props {
 }
 
 const ProjectCard = ({ project, onFlip }: Props) => {
+  const generateChips = (techStack: string[]) => {
+    return techStack.map(tech => {
+      let backgroundColor = '';
+
+      for (let map in techColorMap) {
+        if (techColorMap[map].list.includes(tech))
+          backgroundColor = techColorMap[map].color;
+      }
+
+      return (
+        <div
+          style={{ backgroundColor, color: getContrastColor(backgroundColor) }}
+          key={tech}
+          className='chip'
+        >
+          {tech}
+        </div>
+      );
+    });
+  };
+
   return (
     <div onClick={onFlip} className='project-card'>
       <div className='image-container'>
@@ -31,11 +56,12 @@ const ProjectCard = ({ project, onFlip }: Props) => {
       </div>
       <div className='project-meta-data'>
         <div className='tech-stack'>
-          {project.techStack.map(tech => (
+          {/* {project.techStack.map(tech => (
             <div key={tech} className='chip'>
               {tech}
             </div>
-          ))}
+          ))} */}
+          {generateChips(project.techStack)}
         </div>
         <div className='project-title'>
           <h3>{project.title} </h3> <p>({project.type})</p>
