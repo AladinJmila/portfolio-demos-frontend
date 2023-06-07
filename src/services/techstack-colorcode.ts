@@ -4,7 +4,7 @@ interface TechColor {
 }
 
 export const techColorMap: Record<string, TechColor> = {
-  frontEnd: {
+  'Front End': {
     color: '#FF6384',
     list: [
       'React',
@@ -18,13 +18,16 @@ export const techColorMap: Record<string, TechColor> = {
       'Chrome Extension API',
     ],
   },
-  backEnd: {
+  'Back End': {
     color: '#36A2EB',
     list: ['Express', 'Mongoose', 'MongoDB', 'Python', 'JWT', 'Passport'],
   },
-  deployment: { color: '#FFCE56', list: ['Heroku', 'Webpack', 'Babel'] },
-  dataManagement: { color: '#4BC0C0', list: ['MongoDB', 'Mongoose', 'GridFS'] },
-  miscellaneous: {
+  Deployment: { color: '#FFCE56', list: ['Heroku', 'Webpack', 'Babel'] },
+  'Data Management': {
+    color: '#4BC0C0',
+    list: ['MongoDB', 'Mongoose', 'GridFS'],
+  },
+  Miscellaneous: {
     color: '#9966FF',
     list: ['YouTube API', 'Handlebars', 'PWA', 'json-server'],
   },

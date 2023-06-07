@@ -2,7 +2,7 @@ import './ProjectCard.css';
 import {
   getContrastColor,
   techColorMap,
-} from './../services/tech-stack-colorcode';
+} from '../services/techstack-colorcode';
 
 export interface Feature {
   id: number;
@@ -32,9 +32,9 @@ const ProjectCard = ({ project, onFlip }: Props) => {
     return techStack.map(tech => {
       let backgroundColor = '';
 
-      for (let map in techColorMap) {
-        if (techColorMap[map].list.includes(tech))
-          backgroundColor = techColorMap[map].color;
+      for (let key in techColorMap) {
+        if (techColorMap[key].list.includes(tech))
+          backgroundColor = techColorMap[key].color;
       }
 
       return (

@@ -3,6 +3,7 @@ import { projectsList } from '../data/db';
 import ProjectCard, { Project } from './ProjectCard';
 import './ProjectsGrid.css';
 import ProjectDetails from './ProjectDetails';
+import TechStack from './TechStack';
 
 const PojectsGrid = () => {
   const [projects, setProjects] = useState<Project[]>([]);
@@ -19,17 +20,20 @@ const PojectsGrid = () => {
     return <ProjectDetails project={selectedProject} onFlip={handleFlip} />;
 
   return (
-    <div className='projects-grid'>
-      {projects.map(project => (
-        <ProjectCard
-          key={project.id}
-          project={project}
-          onFlip={() => {
-            handleFlip();
-            setSelectedProject(project);
-          }}
-        />
-      ))}
+    <div className='home-grid'>
+      <TechStack />
+      <div className='projects-grid'>
+        {projects.map(project => (
+          <ProjectCard
+            key={project.id}
+            project={project}
+            onFlip={() => {
+              handleFlip();
+              setSelectedProject(project);
+            }}
+          />
+        ))}
+      </div>
     </div>
   );
 };
