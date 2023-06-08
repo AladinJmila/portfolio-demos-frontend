@@ -9,12 +9,14 @@ const TechStack = () => {
 
   return (
     <div className='techstack-map'>
-      {mapKey.map(tech => (
-        <>
-          <p key={tech.type}>{tech.type}</p>
-          <span style={{ backgroundColor: tech.color }}></span>
-        </>
-      ))}
+      <div className='sticky'>
+        {mapKey.map(tech => (
+          <>
+            <p key={tech.type}>{tech.type}</p>
+            <span style={{ backgroundColor: tech.color }}></span>
+          </>
+        ))}
+      </div>
     </div>
   );
 };

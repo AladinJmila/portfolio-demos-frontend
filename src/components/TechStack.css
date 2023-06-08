@@ -13,3 +13,10 @@
   border-radius: 5px;
   margin-bottom: 20px;
 }
+
+.techstack-map .sticky {
+  position: sticky;
+  /* top: calc(30vh - 100px); */
+  top: 10vh;
+  left: 0;
+}
