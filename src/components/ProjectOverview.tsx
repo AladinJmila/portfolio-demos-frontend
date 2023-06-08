@@ -1,5 +1,6 @@
 import ProjectCard, { Project } from './ProjectCard';
 import './ProjectOverview.css';
+import Timeline from './Timeline';
 
 interface Props {
   project: Project;
@@ -9,6 +10,7 @@ interface Props {
 const ProjectOverview = ({ project, onFlip }: Props) => {
   return (
     <div className='project-overview'>
+      <Timeline date={project.createdAt} />
       <ProjectCard key={project.id} project={project} onFlip={onFlip} />
       <div className='project-info'>
         <div className='project-title'>

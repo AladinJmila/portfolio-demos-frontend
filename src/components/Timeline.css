@@ -1,0 +1,31 @@
+.timeline .created-at {
+  background-color: #716b6b;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.timeline .created-at::before,
+.timeline .created-at::after {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 200px;
+  background-color: #716b6b;
+  position: absolute;
+}
+
+.timeline .created-at::before {
+  bottom: 80px;
+}
+
+.timeline .created-at::after {
+  top: 80px;
+}

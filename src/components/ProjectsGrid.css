@@ -10,7 +10,7 @@
   grid-template-columns: 1fr;
   gap: 40px;
 }
-
+/* 
 @media screen and (max-width: 860px) {
   .projects-grid {
     grid-template-columns: 1fr 1fr;
@@ -21,4 +21,4 @@
   .projects-grid {
     grid-template-columns: 1fr;
   }
-}
+} */

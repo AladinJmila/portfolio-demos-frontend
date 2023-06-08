@@ -15,8 +15,9 @@ export interface Feature {
 export interface Project {
   id: number;
   title: string;
-  image: string;
   type: string;
+  createdAt: string;
+  image: string;
   techStack: string[];
   url: string;
   features: Feature[];
