@@ -1,0 +1,21 @@
+.project-overview {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.project-overview .project-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.project-overview .project-title {
+  text-align: center;
+  column-gap: 10px;
+  padding-top: 10px;
+  font-weight: 700 !important;
+  width: 100%;
+}

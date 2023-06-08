@@ -54,19 +54,7 @@ const ProjectCard = ({ project, onFlip }: Props) => {
       <div className='image-container'>
         <img src={project.image} />
       </div>
-      <div className='project-meta-data'>
-        <div className='tech-stack'>
-          {/* {project.techStack.map(tech => (
-            <div key={tech} className='chip'>
-              {tech}
-            </div>
-          ))} */}
-          {generateChips(project.techStack)}
-        </div>
-        <div className='project-title'>
-          <h3>{project.title} </h3> <p>({project.type})</p>
-        </div>
-      </div>
+      <div className='tech-stack'>{generateChips(project.techStack)}</div>
     </div>
   );
 };

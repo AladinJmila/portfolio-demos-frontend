@@ -20,7 +20,15 @@ export const techColorMap: Record<string, TechColor> = {
   },
   'Back End': {
     color: '#36A2EB',
-    list: ['Express', 'Mongoose', 'MongoDB', 'Python', 'JWT', 'Passport'],
+    list: [
+      'Express',
+      'Mongoose',
+      'MongoDB',
+      'Python',
+      'JWT',
+      'Passport',
+      'REST',
+    ],
   },
   Deployment: { color: '#FFCE56', list: ['Heroku', 'Webpack', 'Babel'] },
   'Data Management': {

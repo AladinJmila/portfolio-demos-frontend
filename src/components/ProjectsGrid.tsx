@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react';
 import { projectsList } from '../data/db';
-import ProjectCard, { Project } from './ProjectCard';
+import { Project } from './ProjectCard';
 import './ProjectsGrid.css';
 import ProjectDetails from './ProjectDetails';
 import TechStack from './TechStack';
+import ProjectOverview from './ProjectOverview';
 
 const PojectsGrid = () => {
   const [projects, setProjects] = useState<Project[]>([]);
@@ -24,8 +25,7 @@ const PojectsGrid = () => {
       <TechStack />
       <div className='projects-grid'>
         {projects.map(project => (
-          <ProjectCard
-            key={project.id}
+          <ProjectOverview
             project={project}
             onFlip={() => {
               handleFlip();

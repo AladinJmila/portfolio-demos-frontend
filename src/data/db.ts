@@ -18,6 +18,7 @@ export const projectsList = [
       'D3.js',
       'Bootstrap',
       'Heroku',
+      'REST',
     ],
     features: [
       {
@@ -54,6 +55,7 @@ export const projectsList = [
       'Handlebars',
       'Babel',
       'GridFS',
+      'REST',
     ],
 
     features: [
