@@ -3,7 +3,6 @@ import {
   getContrastColor,
   techColorMap,
 } from '../services/techstack-colorcode';
-import ProjectDetails from './ProjectDetails';
 
 export interface Feature {
   id: number;
