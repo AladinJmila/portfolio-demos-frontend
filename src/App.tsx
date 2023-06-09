@@ -1,5 +1,5 @@
 import './App.css';
-import ProjectsGrid from './components/ProjectsGrid';
+import Home from './components/Home';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         and a little about your development journey. This personal touch helps
         visitors connect with you as a developer.
       </div>
-      <ProjectsGrid />
+      <Home />
     </>
   );
 }

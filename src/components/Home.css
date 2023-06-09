@@ -1,6 +1,6 @@
 .home-grid {
   display: grid;
-  grid-template-columns: 1fr 6fr;
+  grid-template-columns: 6fr 1fr;
   gap: 30px;
 }
 
@@ -9,6 +9,8 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 60px;
+  overflow: hidden;
+  padding-bottom: 20px;
 }
 /* 
 @media screen and (max-width: 860px) {

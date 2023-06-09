@@ -1,12 +1,11 @@
 import { useEffect, useState } from 'react';
 import { projectsList } from '../data/db';
 import { Project } from './ProjectCard';
-import './ProjectsGrid.css';
-import ProjectDetails from './ProjectDetails';
+import './Home.css';
 import TechStack from './TechStack';
 import ProjectOverview from './ProjectOverview';
 
-const PojectsGrid = () => {
+const Home = () => {
   const [projects, setProjects] = useState<Project[]>([]);
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [flip, setFilp] = useState(false);
@@ -22,7 +21,6 @@ const PojectsGrid = () => {
 
   return (
     <div className='home-grid'>
-      <TechStack />
       <div className='projects-grid'>
         {projects.map(project => (
           <ProjectOverview
@@ -36,8 +34,9 @@ const PojectsGrid = () => {
           />
         ))}
       </div>
+      <TechStack />
     </div>
   );
 };
 
-export default PojectsGrid;
+export default Home;

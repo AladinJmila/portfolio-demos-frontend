@@ -1,4 +1,7 @@
-import { techColorMap } from '../services/techstack-colorcode';
+import {
+  getContrastColor,
+  techColorMap,
+} from '../services/techstack-colorcode';
 import './TechStack.css';
 
 const TechStack = () => {
@@ -11,10 +14,16 @@ const TechStack = () => {
     <div className='techstack-map'>
       <div className='sticky'>
         {mapKey.map(tech => (
-          <>
-            <p key={tech.type}>{tech.type}</p>
-            <span style={{ backgroundColor: tech.color }}></span>
-          </>
+          <div
+            className='tech-group'
+            key={tech.type}
+            style={{
+              backgroundColor: tech.color,
+              color: getContrastColor(tech.color),
+            }}
+          >
+            {tech.type}
+          </div>
         ))}
       </div>
     </div>

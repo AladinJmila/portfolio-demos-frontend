@@ -1,22 +1,32 @@
 .techstack-map {
-  margin-right: 30px;
+  padding-left: 20px;
+  border-left: 4px solid #716b6b;
 }
 
-.techstack-map p {
+.techstack-map .tech-group {
   padding-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  width: 120px;
+  padding: 20px;
+  font-weight: bold;
+  border-radius: 25px;
+  transform: scaleX(0.8) scaleY(0.8);
+  text-align: center;
 }
 
-.techstack-map span {
-  display: block;
-  width: 100%;
-  height: 10px;
-  border-radius: 5px;
-  margin-bottom: 20px;
+.sticky {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80vh;
 }
 
 .techstack-map .sticky {
   position: sticky;
-  /* top: calc(30vh - 100px); */
   top: 10vh;
   left: 0;
 }

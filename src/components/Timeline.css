@@ -17,15 +17,17 @@
   content: '';
   display: block;
   width: 10px;
-  height: 200px;
+
   background-color: #716b6b;
   position: absolute;
 }
 
 .timeline .created-at::before {
-  bottom: 80px;
+  bottom: 75px;
+  height: 180px;
 }
 
 .timeline .created-at::after {
   top: 80px;
+  height: 220px;
 }
