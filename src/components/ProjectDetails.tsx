@@ -34,12 +34,9 @@ const ProjectDetails = ({ selectedProject, flip, onFlip }: Props) => {
           <div className='sticky-content'>
             <div className='project-header'>
               <h2>{selectedProject?.title}</h2>
-              <p className='bread-crumbs'>
-                <a className='return-btn' href='' onClick={onFlip}>
-                  All Projects
-                </a>
-                <span className='chevron'>&gt;</span> {selectedProject?.title}
-              </p>
+              <button className='return-btn' onClick={onFlip}>
+                x
+              </button>
               <FeaturesNav
                 features={selectedProject?.features}
                 handleClick={handleFeatureClick}
@@ -49,12 +46,12 @@ const ProjectDetails = ({ selectedProject, flip, onFlip }: Props) => {
           </div>
 
           <div className='project-body'>
-            {selectedProject?.url && (
+            {/* {selectedProject?.url && (
               <iframe
                 className='project-iframe'
                 src={selectedProject.url}
               ></iframe>
-            )}
+            )} */}
 
             <FeaturesList
               features={selectedProject?.features}

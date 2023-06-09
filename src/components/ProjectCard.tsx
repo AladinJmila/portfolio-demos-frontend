@@ -26,12 +26,10 @@ export interface Project {
 
 interface Props {
   project: Project;
-  selectedProject: Project | null;
-  flip: boolean;
   onFlip: () => void;
 }
 
-const ProjectCard = ({ project, selectedProject, flip, onFlip }: Props) => {
+const ProjectCard = ({ project, onFlip }: Props) => {
   const generateChips = (techStack: string[]) => {
     return techStack.map(tech => {
       let backgroundColor = '';
@@ -59,13 +57,6 @@ const ProjectCard = ({ project, selectedProject, flip, onFlip }: Props) => {
         <img src={project.image} />
       </div>
       <div className='tech-stack'>{generateChips(project.techStack)}</div>
-      {flip && selectedProject?.id === project.id && (
-        <ProjectDetails
-          selectedProject={selectedProject}
-          flip={flip}
-          onFlip={onFlip}
-        />
-      )}
     </div>
   );
 };

@@ -30,7 +30,6 @@ const FeatureDetails = ({ feature, featureRef }: Props) => {
 
   return (
     <div ref={featureRef} className='feature-details'>
-      <h3>{feature?.title}</h3>
       <nav>
         <button
           className={toggleView ? 'active' : ''}

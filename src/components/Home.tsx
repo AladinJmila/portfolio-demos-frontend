@@ -15,7 +15,7 @@ const Home = () => {
   }, []);
 
   const handleFlip = () => {
-    // document.body.style.overflow = !flip ? 'hidden' : 'auto';
+    document.body.style.overflow = !flip ? 'hidden' : 'auto';
     setFilp(!flip);
   };
 
