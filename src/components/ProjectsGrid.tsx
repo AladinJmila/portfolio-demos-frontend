@@ -18,7 +18,13 @@ const PojectsGrid = () => {
   const handleFlip = () => setFilp(!flip);
 
   if (flip)
-    return <ProjectDetails project={selectedProject} onFlip={handleFlip} />;
+    return (
+      <ProjectDetails
+        project={selectedProject}
+        flip={flip}
+        onFlip={handleFlip}
+      />
+    );
 
   return (
     <div className='home-grid'>
