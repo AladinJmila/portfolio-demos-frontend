@@ -15,16 +15,10 @@ const PojectsGrid = () => {
     setProjects(projectsList);
   }, []);
 
-  const handleFlip = () => setFilp(!flip);
-
-  if (flip)
-    return (
-      <ProjectDetails
-        project={selectedProject}
-        flip={flip}
-        onFlip={handleFlip}
-      />
-    );
+  const handleFlip = () => {
+    // document.body.style.overflow = !flip ? 'hidden' : 'auto';
+    setFilp(!flip);
+  };
 
   return (
     <div className='home-grid'>
@@ -33,6 +27,8 @@ const PojectsGrid = () => {
         {projects.map(project => (
           <ProjectOverview
             project={project}
+            selectedProject={selectedProject}
+            flip={flip}
             onFlip={() => {
               handleFlip();
               setSelectedProject(project);

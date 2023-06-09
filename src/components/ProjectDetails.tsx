@@ -6,13 +6,15 @@ import { Project } from './ProjectCard';
 import './ProjectDetails.css';
 
 interface Props {
-  project: Project | null;
+  selectedProject: Project | null;
   flip: boolean;
   onFlip: () => void;
 }
 
-const ProjectDetails = ({ project, flip, onFlip }: Props) => {
-  const [activeFeature, setActiveFeature] = useState(project?.features?.[0].id);
+const ProjectDetails = ({ selectedProject, flip, onFlip }: Props) => {
+  const [activeFeature, setActiveFeature] = useState(
+    selectedProject?.features?.[0].id
+  );
 
   const featureRef = useRef<HTMLDivElement>(null);
 
@@ -31,15 +33,15 @@ const ProjectDetails = ({ project, flip, onFlip }: Props) => {
         <div className='project-details'>
           <div className='sticky-content'>
             <div className='project-header'>
-              <h2>{project?.title}</h2>
+              <h2>{selectedProject?.title}</h2>
               <p className='bread-crumbs'>
                 <a className='return-btn' href='' onClick={onFlip}>
                   All Projects
                 </a>
-                <span className='chevron'>&gt;</span> {project?.title}
+                <span className='chevron'>&gt;</span> {selectedProject?.title}
               </p>
               <FeaturesNav
-                features={project?.features}
+                features={selectedProject?.features}
                 handleClick={handleFeatureClick}
                 activeFeature={activeFeature}
               />
@@ -47,12 +49,15 @@ const ProjectDetails = ({ project, flip, onFlip }: Props) => {
           </div>
 
           <div className='project-body'>
-            {project?.url && (
-              <iframe className='project-iframe' src={project.url}></iframe>
+            {selectedProject?.url && (
+              <iframe
+                className='project-iframe'
+                src={selectedProject.url}
+              ></iframe>
             )}
 
             <FeaturesList
-              features={project?.features}
+              features={selectedProject?.features}
               activeFeature={activeFeature}
               featureRef={featureRef}
             />

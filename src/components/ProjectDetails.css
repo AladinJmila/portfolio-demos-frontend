@@ -1,10 +1,13 @@
 .project-details {
   display: grid;
   grid-template-columns: 1fr 4fr;
-  margin-top: 80px;
-  width: 1400px;
+  /* margin-top: 80px; */
+  /* width: 1400px; */
   /* height: 500px; */
-  padding: 0 40px;
+  padding: 40px;
+  overflow: auto;
+  background-color: rgb(79, 79, 79);
+  color: white;
 }
 
 .project-details .sticky-content {
@@ -37,62 +40,55 @@
 
 .project-details .project-body .project-iframe {
   width: 1000px;
-  height: 700px;
+  height: 565px;
   border: 0;
   border-radius: var(--lg-border-radius);
 }
 
 .tv {
-  /* width: 400px;
-  height: 300px; */
-  /* height: 700px; */
-  position: relative;
   height: 100%;
-  /* overflow: hidden; */
+  position: fixed;
+  left: 15%;
+  top: 14%;
+  z-index: 10;
 }
 
 .screen {
-  width: 100%;
-  height: 100%;
   background-color: black;
-  /* position: absolute; */
-  /* top: 0; */
-  /* left: 0; */
 }
 
 @keyframes tvOn {
   0% {
     transform: scaleY(0);
-    height: 600px;
+    height: 300px;
   }
-  95% {
-    height: 600px;
+  50% {
+    height: 350px;
   }
   100% {
     transform: scaleY(1);
     background-color: transparent;
-    height: 100%;
+    height: 700px;
   }
 }
 
 @keyframes test {
   0% {
     opacity: 0;
+    height: 300px;
   }
-  95% {
-    opacity: 0;
+  50% {
+    opacity: 0.5;
+    height: 350px;
   }
   100% {
     opacity: 1;
+    height: 700px;
   }
 }
 
-.tv.on {
-  /* overflow: auto; */
-}
-
 .tv.on .screen {
-  animation: tvOn 0.8s linear forwards;
+  animation: tvOn 1s linear forwards;
 }
 
 .tv.on .project-details {
