@@ -45,7 +45,7 @@
   width: 100%;
 }
 .file-data.hljs-style-github-dark-dimmed {
-  max-height: 550px;
+  max-height: 625px;
   overflow: auto;
 }
 .emgithub-file .code-area td.hljs-ln-line {

@@ -23,6 +23,18 @@ const ProjectOverview = ({ project, selectedProject, flip, onFlip }: Props) => {
         />
       )}
       <div className='project-info'>
+        <div className='links'>
+          {project.url ? (
+            <a href={project.url} target='_blank'>
+              Website
+            </a>
+          ) : (
+            <a />
+          )}
+          <a href={project.repository} target='_blank'>
+            GitHub
+          </a>
+        </div>
         <div className='project-title'>
           <h3>{project.title} </h3> <p>({project.type})</p>
         </div>

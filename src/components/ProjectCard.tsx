@@ -20,6 +20,7 @@ export interface Project {
   image: string;
   techStack: string[];
   url: string;
+  repository: string;
   features: Feature[];
 }
 

@@ -3,11 +3,11 @@ export const projectsList = [
     id: 1,
     title: 'My Studyroom',
     type: 'Full Stack',
-    createdAt: 'JUN 2020',
+    createdAt: 'JUN 2021',
     image:
       'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/my-study-room/study-room.PNG',
     url: 'https://cryptic-harbor-13426.herokuapp.com/',
-    repository: '',
+    repository: 'https://github.com/AladinJmila/my-studyroom-frontend',
     techStack: [
       'React',
       'Redux',
@@ -85,7 +85,7 @@ export const projectsList = [
     createdAt: 'MAR 2022',
     image:
       'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/my-study-room/study-room.PNG',
-    url: 'https://cryptic-harbor-13426.herokuapp.com/',
+    url: '',
     repository: '',
     techStack: [
       'Express',
@@ -125,7 +125,7 @@ export const projectsList = [
     createdAt: 'AUG 2022',
     image:
       'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/my-study-room/study-room.PNG',
-    url: 'https://cryptic-harbor-13426.herokuapp.com/',
+    url: '',
     repository: '',
     techStack: ['React', 'D3.js', 'PWA', 'json-server'],
     features: [
@@ -154,7 +154,7 @@ export const projectsList = [
     createdAt: 'MAY 2023',
     image:
       'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/my-study-room/study-room.PNG',
-    url: 'https://cryptic-harbor-13426.herokuapp.com/',
+    url: '',
     repository: '',
     techStack: [
       'HTML',

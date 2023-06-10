@@ -19,3 +19,8 @@
   font-weight: 700 !important;
   width: 100%;
 }
+
+.project-overview .links {
+  display: flex;
+  justify-content: space-between;
+}
