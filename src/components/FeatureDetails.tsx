@@ -29,8 +29,8 @@ const FeatureDetails = ({ feature, featureRef }: Props) => {
   }, [toggleView]);
 
   return (
-    <div ref={featureRef} className='feature-details'>
-      <nav>
+    <div className='feature-details'>
+      <nav ref={featureRef}>
         <button
           className={toggleView ? 'active' : ''}
           onClick={() => setToggleView(true)}
@@ -51,7 +51,12 @@ const FeatureDetails = ({ feature, featureRef }: Props) => {
           <div className='code-snippet-container' ref={codeSnippetRef}></div>
         )}
       </div>
-      <p>{feature?.description}</p>
+      {feature?.description && (
+        <p>
+          Description: <br />
+          <br /> {feature?.description}
+        </p>
+      )}
     </div>
   );
 };

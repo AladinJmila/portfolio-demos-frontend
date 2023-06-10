@@ -13,7 +13,9 @@ export const techColorMap: Record<string, TechColor> = {
       'Bootstrap',
       'HTML',
       'CSS',
+      'SASS',
       'JavaScript',
+      'TypeScript',
       'Service Workers',
       'Chrome Extension API',
     ],
@@ -33,11 +35,11 @@ export const techColorMap: Record<string, TechColor> = {
   Deployment: { color: '#FFCE56', list: ['Heroku', 'Webpack', 'Babel'] },
   'Data Management': {
     color: '#4BC0C0',
-    list: ['MongoDB', 'Mongoose', 'GridFS'],
+    list: ['MongoDB', 'Mongoose', 'GridFS', 'Firebase'],
   },
   Miscellaneous: {
     color: '#9966FF',
-    list: ['YouTube API', 'Handlebars', 'PWA', 'json-server'],
+    list: ['YouTube API', 'Handlebars', 'PWA', 'json-server', 'Gulp'],
   },
 };
 

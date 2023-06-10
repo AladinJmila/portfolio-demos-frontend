@@ -11,8 +11,8 @@
 }
 
 .project-details .sticky-content {
-  /* position: sticky; */
-  top: 40px;
+  position: sticky;
+  top: 0;
   left: 0;
 }
 

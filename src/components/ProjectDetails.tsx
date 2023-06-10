@@ -31,12 +31,12 @@ const ProjectDetails = ({ selectedProject, flip, onFlip }: Props) => {
     <div className={flip ? 'tv on' : 'tv'}>
       <div className='screen'>
         <div className='project-details'>
-          <div className='sticky-content'>
-            <div className='project-header'>
+          <button className='return-btn' onClick={onFlip}>
+            x
+          </button>
+          <div>
+            <div className='project-header sticky-content'>
               <h2>{selectedProject?.title}</h2>
-              <button className='return-btn' onClick={onFlip}>
-                x
-              </button>
               <FeaturesNav
                 features={selectedProject?.features}
                 handleClick={handleFeatureClick}
