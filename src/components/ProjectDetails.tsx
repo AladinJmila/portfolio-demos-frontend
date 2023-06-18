@@ -45,7 +45,14 @@ const ProjectDetails = ({ selectedProject, flip, onFlip }: Props) => {
             </div>
           </div>
 
-          <div className='project-body'>
+          <div
+            className='project-body'
+            style={{
+              background: `${
+                selectedProject?.title === 'Dynamic Tutorials' ? '#F4F4F4' : ''
+              }`,
+            }}
+          >
             {/* {selectedProject?.url && (
               <iframe
                 className='project-iframe'

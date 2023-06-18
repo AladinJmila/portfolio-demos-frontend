@@ -3,7 +3,8 @@
   align-items: center;
   flex-direction: column;
   row-gap: 20px;
-  width: 1000px;
+  width: 100%;
+  max-width: 1000px;
 }
 
 .feature-details nav {
@@ -34,7 +35,7 @@
 
 .feature-details img {
   width: 100%;
-  border-radius: var(--lg-border-radius);
+  /* border-radius: var(--lg-border-radius); */
 }
 
 .feature-details .code-snippet-container {
@@ -43,6 +44,10 @@
 
 .feature-details .emgithub-container {
   width: 100%;
+}
+
+.feature-details .emgithub-file {
+  border-radius: 0 !important;
 }
 .file-data.hljs-style-github-dark-dimmed {
   max-height: 625px;

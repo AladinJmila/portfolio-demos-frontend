@@ -30,6 +30,7 @@ export const techColorMap: Record<string, TechColor> = {
       'JWT',
       'Passport',
       'REST',
+      'Node',
     ],
   },
   Deployment: { color: '#FFCE56', list: ['Heroku', 'Webpack', 'Babel'] },
