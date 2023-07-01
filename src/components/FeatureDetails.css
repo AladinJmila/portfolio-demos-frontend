@@ -1,3 +1,9 @@
+.features-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .feature-details {
   display: flex;
   align-items: center;
@@ -35,11 +41,13 @@
 
 .feature-details img {
   width: 100%;
+
   /* border-radius: var(--lg-border-radius); */
 }
 
 .feature-details .code-snippet-container {
   width: 100%;
+  max-width: 1200px;
 }
 
 .feature-details .emgithub-container {
@@ -48,6 +56,7 @@
 
 .feature-details .emgithub-file {
   border-radius: 0 !important;
+  margin: 0 !important;
 }
 .file-data.hljs-style-github-dark-dimmed {
   max-height: 625px;
