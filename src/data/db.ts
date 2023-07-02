@@ -8,6 +8,8 @@ export const projectsList = [
       'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/my-study-room/study-room.PNG',
     url: 'https://cryptic-harbor-13426.herokuapp.com/',
     repository: 'https://github.com/AladinJmila/my-studyroom-frontend',
+    description:
+      'A useful app that boosts learning efficiency. With a seamless interface, it gathers various learning resources in one place, allowing you to effortlessly track your progress and visualize daily activities. Gain valuable insights from yearly reports, enabling you to optimize your approach to learning and project work',
     techStack: [
       'React',
       'Redux',
@@ -96,6 +98,8 @@ export const projectsList = [
     title: 'Indoor Jungle',
     type: 'Front End',
     createdAt: 'JAN 2022',
+    description:
+      "This app is designed to assist in the maintenance of indoor plants, ensuring their optimal health. You can conveniently create a collection of your plants and include detailed descriptions to ensure proper care. Additionally, you can set reminders tailored to each plant's specific requirements, ensuring they receive the individual attention they need for thriving growth.",
     image:
       'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/indoor-jungle/cover.PNG',
     url: 'https://indoor-jungle.vercel.app/',
@@ -133,6 +137,8 @@ export const projectsList = [
     title: 'Dynamic Tutorials',
     type: 'Full Stack',
     createdAt: 'APR 2022',
+    description:
+      "It is an app for creating flexible tutorials and demos. It allows easy content updates as your projects evolve. The app's modular design enables editing of small sections instead of redoing entire videos. It also provides a progress overview, highlighting reviewed duplicate functionalities to avoid unnecessary rewatches across different tutorial parts.",
     image:
       'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/dynamic-tutorials/cover.PNG',
     url: 'https://dynamic-tutorials-server.onrender.com/tutorials/show',
@@ -190,8 +196,10 @@ export const projectsList = [
     title: 'Emotions Diray',
     type: 'Front End',
     createdAt: 'AUG 2022',
+    description:
+      'It enables you to log and track your emotional states and fluctuations and serves as a valuable tool for introspection. Revisit your logs to gain valuable insights into your overall emotional well-being over time, empowering you to develop effective strategies for self-discovery and make intentional changes to steer your life in the desired direction.',
     image:
-      'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/my-study-room/study-room.PNG',
+      'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/placeholder.png',
     url: '',
     repository: '',
     techStack: ['React', 'D3.js', 'PWA', 'json-server'],
@@ -199,18 +207,10 @@ export const projectsList = [
       {
         id: 31,
         title: 'Feature 1',
-        gif: 'https://dummyimage.com/640x360/aaa/fff',
-        description: 'Description of Feature 1',
+        gif: 'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/placeholder.png',
+        description: '',
         codeSnippet:
           'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fportfolio-demos%2Fblob%2Fmaster%2Fsrc%2Fcomponents%2FProjectCard.tsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
-      },
-      {
-        id: 32,
-        title: 'Feature 2',
-        gif: 'https://dummyimage.com/640x360/aaa/fff',
-        description: 'Description of Feature 2',
-        codeSnippet:
-          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fportfolio-demos%2Fblob%2Fmaster%2Fsrc%2Fcomponents%2FProjectsGrid.tsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
       },
     ],
   },
@@ -219,8 +219,10 @@ export const projectsList = [
     title: 'Advanced Job Filtering',
     type: 'Chrome Extension',
     createdAt: 'MAY 2023',
+    description:
+      'This Chrome extension tackles the limitations of job search platforms by providing enhanced control over search results and filters. It alleviates the frustration of repeatedly encountering unwanted job offers by preventing their recurrence. This saves valuable time that would otherwise be wasted on hiding or repeatedly sifting through irrelevant listings. ',
     image:
-      'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/my-study-room/study-room.PNG',
+      'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/placeholder.png',
     url: '',
     repository: '',
     techStack: [
@@ -234,18 +236,39 @@ export const projectsList = [
       {
         id: 31,
         title: 'Feature 1',
-        gif: 'https://dummyimage.com/640x360/aaa/fff',
-        description: 'Description of Feature 1',
+        gif: 'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/placeholder.png',
+        description: '',
         codeSnippet:
-          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fportfolio-demos%2Fblob%2Fmaster%2Fsrc%2Fcomponents%2FProjectDetails.tsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fportfolio-demos%2Fblob%2Fmaster%2Fsrc%2Fcomponents%2FProjectCard.tsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
       },
+    ],
+  },
+  {
+    id: 5,
+    title: 'Advanced Job Filtering',
+    type: 'Chrome Extension',
+    createdAt: 'MAY 2023',
+    description:
+      'This Chrome extension tackles the limitations of job search platforms by providing enhanced control over search results and filters. It alleviates the frustration of repeatedly encountering unwanted job offers by preventing their recurrence. This saves valuable time that would otherwise be wasted on hiding or repeatedly sifting through irrelevant listings. ',
+    image:
+      'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/placeholder.png',
+    url: '',
+    repository: '',
+    techStack: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'Service Workers',
+      'Chrome Extension API',
+    ],
+    features: [
       {
-        id: 32,
-        title: 'Feature 2',
-        gif: 'https://dummyimage.com/640x360/aaa/fff',
-        description: 'Description of Feature 2',
+        id: 31,
+        title: 'Feature 1',
+        gif: 'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/placeholder.png',
+        description: '',
         codeSnippet:
-          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fportfolio-demos%2Fblob%2Fmaster%2Fsrc%2Fcomponents%2FProjectsGrid.tsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fportfolio-demos%2Fblob%2Fmaster%2Fsrc%2Fcomponents%2FProjectCard.tsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
       },
     ],
   },

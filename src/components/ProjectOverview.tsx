@@ -38,11 +38,7 @@ const ProjectOverview = ({ project, selectedProject, flip, onFlip }: Props) => {
         <div className='project-title'>
           <h3>{project.title} </h3> <p>({project.type})</p>
         </div>
-        <p>
-          Project Highlights: Instead of just showing the name and tech stack,
-          add a brief description or key features of each project. This will
-          provide visitors with a quick overview and make it more engaging.
-        </p>
+        <p>{project?.description}</p>
       </div>
     </div>
   );

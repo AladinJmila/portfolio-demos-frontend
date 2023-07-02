@@ -24,7 +24,7 @@
 
 .timeline .created-at::before {
   bottom: 75px;
-  height: 180px;
+  height: 190px;
 }
 
 .timeline .created-at::after {

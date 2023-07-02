@@ -46,7 +46,11 @@ const FeatureDetails = ({ feature, featureRef }: Props) => {
       </nav>
       <div className='feature-media'>
         {toggleView ? (
-          <img src={feature?.gif} />
+          feature?.gif.includes('placeholder') ? (
+            <img className='in-development' src={feature?.gif} />
+          ) : (
+            <img src={feature?.gif} />
+          )
         ) : (
           <div className='code-snippet-container' ref={codeSnippetRef}></div>
         )}

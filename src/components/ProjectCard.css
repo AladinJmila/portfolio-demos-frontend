@@ -30,3 +30,11 @@
   padding: 2px 6px;
   border-radius: 4px;
 }
+
+div.project-overview:nth-of-type(n) .in-development {
+  background-color: rgb(206, 206, 206);
+}
+div.project-overview:nth-of-type(2n) .in-development {
+  background-color: rgb(74, 114, 144);
+  filter: invert(0.9);
+}

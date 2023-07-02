@@ -12,6 +12,13 @@
   overflow: hidden;
   padding-bottom: 20px;
 }
+
+div.project-overview:first-of-type .created-at::before {
+  /* height: 1000px; */
+}
+div.project-overview:last-of-type .created-at::after {
+  /* height: 200px; */
+}
 /* 
 @media screen and (max-width: 860px) {
   .projects-grid {
@@ -24,3 +31,8 @@
     grid-template-columns: 1fr;
   }
 } */
+
+.self-introduction {
+  border-bottom: 3px dashed grey;
+  margin: 40px 0;
+}

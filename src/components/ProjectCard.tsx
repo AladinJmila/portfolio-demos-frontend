@@ -18,6 +18,7 @@ export interface Project {
   type: string;
   createdAt: string;
   image: string;
+  description: string;
   techStack: string[];
   url: string;
   repository: string;
@@ -54,7 +55,11 @@ const ProjectCard = ({ project, onFlip }: Props) => {
   return (
     <div onClick={onFlip} className='project-card'>
       <div className='image-container'>
-        <img src={project.image} />
+        {project.image.includes('placeholder') ? (
+          <img className='in-development' src={project.image} />
+        ) : (
+          <img src={project.image} />
+        )}
       </div>
       <div className='tech-stack'>{generateChips(project.techStack)}</div>
     </div>
