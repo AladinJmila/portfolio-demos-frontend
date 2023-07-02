@@ -1,0 +1,30 @@
+.my-overview {
+  display: grid;
+  grid-template-columns: 3fr 10fr;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  text-align: justify;
+  margin: 0 250px 100px 150px;
+  position: relative;
+}
+
+.my-overview::after {
+  content: '';
+  position: absolute;
+  bottom: -20px;
+  display: block;
+  border-bottom: 10px solid #716b6b;
+  width: calc(100% + 20px);
+}
+
+.my-overview img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.my-overview .personal-details {
+  text-align: center;
+  padding-bottom: 10px;
+}

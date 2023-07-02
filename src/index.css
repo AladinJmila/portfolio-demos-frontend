@@ -54,6 +54,7 @@ body {
   max-width: 1400px;
   margin: auto;
   background-color: #f4f4f4;
+  border-top: 30px solid #716b6b;
 }
 
 a,

@@ -38,7 +38,7 @@ const ProjectOverview = ({ project, selectedProject, flip, onFlip }: Props) => {
         <div className='project-title'>
           <h3>{project.title} </h3> <p>({project.type})</p>
         </div>
-        <p>{project?.description}</p>
+        <p className='project-description'>{project?.description}</p>
       </div>
     </div>
   );

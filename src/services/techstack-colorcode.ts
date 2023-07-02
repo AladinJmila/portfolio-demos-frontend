@@ -31,16 +31,29 @@ export const techColorMap: Record<string, TechColor> = {
       'Passport',
       'REST',
       'Node',
+      'Django',
+      'Django REST Framework',
     ],
   },
-  Deployment: { color: '#FFCE56', list: ['Heroku', 'Webpack', 'Babel'] },
+  Deployment: {
+    color: '#FFCE56',
+    list: ['Heroku', 'Webpack', 'Babel', 'Vite'],
+  },
   'Data Management': {
     color: '#4BC0C0',
-    list: ['MongoDB', 'Mongoose', 'GridFS', 'Firebase'],
+    list: ['MongoDB', 'Mongoose', 'GridFS', 'Firebase', 'MySQL'],
   },
   Miscellaneous: {
     color: '#9966FF',
-    list: ['YouTube API', 'Handlebars', 'PWA', 'json-server', 'Gulp'],
+    list: [
+      'YouTube API',
+      'Handlebars',
+      'PWA',
+      'json-server',
+      'Gulp',
+      'Git',
+      'GitHub',
+    ],
   },
 };
 

@@ -4,6 +4,7 @@ import { Project } from './ProjectCard';
 import './Home.css';
 import TechStack from './TechStack';
 import ProjectOverview from './ProjectOverview';
+import MyOverview from './MyOverview';
 
 const Home = () => {
   const [projects, setProjects] = useState<Project[]>([]);
@@ -20,22 +21,26 @@ const Home = () => {
   };
 
   return (
-    <div className='home-grid'>
-      <div className='projects-grid'>
-        {projects.map(project => (
-          <ProjectOverview
-            project={project}
-            selectedProject={selectedProject}
-            flip={flip}
-            onFlip={() => {
-              handleFlip();
-              setSelectedProject(project);
-            }}
-          />
-        ))}
+    <>
+      <MyOverview />
+
+      <div className='home-grid'>
+        <div className='projects-grid'>
+          {projects.map(project => (
+            <ProjectOverview
+              project={project}
+              selectedProject={selectedProject}
+              flip={flip}
+              onFlip={() => {
+                handleFlip();
+                setSelectedProject(project);
+              }}
+            />
+          ))}
+        </div>
+        <TechStack />
       </div>
-      <TechStack />
-    </div>
+    </>
   );
 };
 

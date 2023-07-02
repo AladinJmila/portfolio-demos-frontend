@@ -26,3 +26,7 @@
   display: flex;
   justify-content: space-between;
 }
+
+.project-overview .project-description {
+  text-align: justify;
+}

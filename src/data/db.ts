@@ -25,6 +25,8 @@ export const projectsList = [
       'REST',
       'Node',
       'JavaScript',
+      'Git',
+      'GitHub',
     ],
     features: [
       {
@@ -104,7 +106,15 @@ export const projectsList = [
       'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/indoor-jungle/cover.PNG',
     url: 'https://indoor-jungle.vercel.app/',
     repository: 'https://github.com/AladinJmila/indoor-jungle',
-    techStack: ['React', 'Firebase', 'TypeScript', 'Gulp', 'SASS'],
+    techStack: [
+      'React',
+      'Firebase',
+      'TypeScript',
+      'Gulp',
+      'SASS',
+      'Git',
+      'GitHub',
+    ],
     features: [
       {
         id: 11,
@@ -155,6 +165,8 @@ export const projectsList = [
       'GridFS',
       'REST',
       'Node',
+      'Git',
+      'GitHub',
     ],
 
     features: [
@@ -194,7 +206,7 @@ export const projectsList = [
   {
     id: 4,
     title: 'Emotions Diray',
-    type: 'Front End',
+    type: 'Full Stack',
     createdAt: 'AUG 2022',
     description:
       'It enables you to log and track your emotional states and fluctuations and serves as a valuable tool for introspection. Revisit your logs to gain valuable insights into your overall emotional well-being over time, empowering you to develop effective strategies for self-discovery and make intentional changes to steer your life in the desired direction.',
@@ -202,7 +214,19 @@ export const projectsList = [
       'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/placeholder.png',
     url: '',
     repository: '',
-    techStack: ['React', 'D3.js', 'PWA', 'json-server'],
+    techStack: [
+      'React',
+      'D3.js',
+      'PWA',
+      'Django',
+      'TypeScript',
+      'Django REST Framework',
+      'Vite',
+      'MySQL',
+      'Python',
+      'Git',
+      'GitHub',
+    ],
     features: [
       {
         id: 31,
@@ -220,7 +244,7 @@ export const projectsList = [
     type: 'Chrome Extension',
     createdAt: 'MAY 2023',
     description:
-      'This Chrome extension tackles the limitations of job search platforms by providing enhanced control over search results and filters. It alleviates the frustration of repeatedly encountering unwanted job offers by preventing their recurrence. This saves valuable time that would otherwise be wasted on hiding or repeatedly sifting through irrelevant listings. ',
+      'This Chrome extension tackles the limitations of job search platforms by providing enhanced control over search results and filters. It alleviates the frustration of repeatedly encountering unwanted job offers by preventing their recurrence. This saves valuable time that would otherwise be wasted on hiding or repeatedly sifting through irrelevant listings.',
     image:
       'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/placeholder.png',
     url: '',
@@ -231,6 +255,8 @@ export const projectsList = [
       'JavaScript',
       'Service Workers',
       'Chrome Extension API',
+      'Git',
+      'GitHub',
     ],
     features: [
       {
@@ -245,22 +271,16 @@ export const projectsList = [
   },
   {
     id: 5,
-    title: 'Advanced Job Filtering',
-    type: 'Chrome Extension',
-    createdAt: 'MAY 2023',
+    title: 'Portfolio & Demos',
+    type: 'Front End',
+    createdAt: 'JUN 2023',
     description:
-      'This Chrome extension tackles the limitations of job search platforms by providing enhanced control over search results and filters. It alleviates the frustration of repeatedly encountering unwanted job offers by preventing their recurrence. This saves valuable time that would otherwise be wasted on hiding or repeatedly sifting through irrelevant listings. ',
+      "This offers a comprehensive overview of projects developed throughout the year in an easy-to-navigate UI. It provides users with a detailed understanding of each project's functionality through short animations showcasing key features. Additionally, the app includes code snippets for deeper technical insights, allowing users to explore the implementation.",
     image:
-      'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/placeholder.png',
+      'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/portfolio-demos/cover.PNG',
     url: '',
-    repository: '',
-    techStack: [
-      'HTML',
-      'CSS',
-      'JavaScript',
-      'Service Workers',
-      'Chrome Extension API',
-    ],
+    repository: 'https://github.com/AladinJmila/portfolio-demos-frontend',
+    techStack: ['React', 'TypeScript', 'Vite', 'Git', 'GitHub'],
     features: [
       {
         id: 31,
