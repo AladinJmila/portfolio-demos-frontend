@@ -205,7 +205,7 @@ export const projectsList = [
   },
   {
     id: 4,
-    title: 'Emotions Diray',
+    title: 'Emotions Diary',
     type: 'Full Stack',
     createdAt: 'AUG 2022',
     description:
