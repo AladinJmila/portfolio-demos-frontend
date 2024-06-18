@@ -1,10 +1,10 @@
-import './MyOverview.css';
+import './MyOverview.css'
 
 const MyOverview = () => {
   return (
     <div className='my-overview'>
       <div className='personal-details'>
-        <img src='https://media.licdn.com/dms/image/C4D03AQF0xLlmKBcilg/profile-displayphoto-shrink_200_200/0/1595858561718?e=1694044800&v=beta&t=DDEQdg-d42dBfZqxa71dNsFl3G7v1a2F9h6f5F99MrQ' />
+        <img src='https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/other/Alaeddine+Jmila.jpg' />
         <h2>Alaeddine Jmila</h2>
       </div>
 
@@ -20,7 +20,7 @@ const MyOverview = () => {
         technologies, and nurturing my creative thinking.
       </p>
     </div>
-  );
-};
+  )
+}
 
-export default MyOverview;
+export default MyOverview
