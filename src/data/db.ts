@@ -26,7 +26,7 @@ export const projectsList = [
       'Node',
       'JavaScript',
       'Git',
-      'GitHub',
+      'GitHub'
     ],
     features: [
       {
@@ -35,7 +35,7 @@ export const projectsList = [
         gif: 'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/my-study-room/overview.gif',
         description: '',
         codeSnippet:
-          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fmy-studyroom-frontend%2Fblob%2Fmaster%2Fsrc%2FApp.js&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fmy-studyroom-frontend%2Fblob%2Fmaster%2Fsrc%2FApp.js&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on'
       },
       {
         id: 12,
@@ -43,7 +43,7 @@ export const projectsList = [
         gif: 'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/my-study-room/subjects.gif',
         description: '',
         codeSnippet:
-          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fmy-studyroom-frontend%2Fblob%2Fmaster%2Fsrc%2Fsubjects-app%2Fcomponents%2FSubjects.jsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fmy-studyroom-frontend%2Fblob%2Fmaster%2Fsrc%2Fsubjects-app%2Fcomponents%2FSubjects.jsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on'
       },
       {
         id: 13,
@@ -51,7 +51,7 @@ export const projectsList = [
         gif: 'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/my-study-room/sessions-and-timer.gif',
         description: '',
         codeSnippet:
-          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fmy-studyroom-frontend%2Fblob%2Fmaster%2Fsrc%2Fschedules-app%2Fcomponents%2FSessions.jsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fmy-studyroom-frontend%2Fblob%2Fmaster%2Fsrc%2Fschedules-app%2Fcomponents%2FSessions.jsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on'
       },
       {
         id: 14,
@@ -59,7 +59,7 @@ export const projectsList = [
         gif: 'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/my-study-room/study-notes.gif',
         description: '',
         codeSnippet:
-          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fmy-studyroom-frontend%2Fblob%2Fmaster%2Fsrc%2Fnotes-app%2FNotes.jsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fmy-studyroom-frontend%2Fblob%2Fmaster%2Fsrc%2Fnotes-app%2FNotes.jsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on'
       },
       {
         id: 15,
@@ -67,7 +67,7 @@ export const projectsList = [
         gif: 'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/my-study-room/tasks.gif',
         description: '',
         codeSnippet:
-          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fmy-studyroom-frontend%2Fblob%2Fmaster%2Fsrc%2Ftasks-app%2Fcomponents%2FTasks.jsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fmy-studyroom-frontend%2Fblob%2Fmaster%2Fsrc%2Ftasks-app%2Fcomponents%2FTasks.jsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on'
       },
       {
         id: 16,
@@ -75,7 +75,7 @@ export const projectsList = [
         gif: 'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/my-study-room/resources.gif',
         description: '',
         codeSnippet:
-          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fmy-studyroom-frontend%2Fblob%2Fmaster%2Fsrc%2Fresources-app%2FResources.jsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fmy-studyroom-frontend%2Fblob%2Fmaster%2Fsrc%2Fresources-app%2FResources.jsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on'
       },
       {
         id: 17,
@@ -83,7 +83,7 @@ export const projectsList = [
         gif: 'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/my-study-room/audio-notes.gif',
         description: '',
         codeSnippet:
-          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fmy-studyroom-frontend%2Fblob%2Fmaster%2Fsrc%2Faudio-notes-app%2FAudioNotes.jsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fmy-studyroom-frontend%2Fblob%2Fmaster%2Fsrc%2Faudio-notes-app%2FAudioNotes.jsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on'
       },
       {
         id: 18,
@@ -91,9 +91,9 @@ export const projectsList = [
         gif: 'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/my-study-room/profile.gif',
         description: '',
         codeSnippet:
-          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fmy-studyroom-frontend%2Fblob%2Fmaster%2Fsrc%2Fcomponents%2FProfile.jsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
-      },
-    ],
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fmy-studyroom-frontend%2Fblob%2Fmaster%2Fsrc%2Fcomponents%2FProfile.jsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on'
+      }
+    ]
   },
   {
     id: 2,
@@ -113,7 +113,7 @@ export const projectsList = [
       'Gulp',
       'SASS',
       'Git',
-      'GitHub',
+      'GitHub'
     ],
     features: [
       {
@@ -122,7 +122,7 @@ export const projectsList = [
         gif: 'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/indoor-jungle/collection.gif',
         description: '',
         codeSnippet:
-          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Findoor-jungle%2Fblob%2Fmaster%2Fsrc%2FApp.tsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Findoor-jungle%2Fblob%2Fmaster%2Fsrc%2FApp.tsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on'
       },
       {
         id: 12,
@@ -130,7 +130,7 @@ export const projectsList = [
         gif: 'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/indoor-jungle/add-plant.gif',
         description: '',
         codeSnippet:
-          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Findoor-jungle%2Fblob%2Fmaster%2Fsrc%2Fpages%2FPlantForm.tsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Findoor-jungle%2Fblob%2Fmaster%2Fsrc%2Fpages%2FPlantForm.tsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on'
       },
       {
         id: 13,
@@ -138,9 +138,9 @@ export const projectsList = [
         gif: 'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/indoor-jungle/plant-details.PNG',
         description: '',
         codeSnippet:
-          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Findoor-jungle%2Fblob%2Fmaster%2Fsrc%2Fpages%2FPlantDetails.tsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
-      },
-    ],
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Findoor-jungle%2Fblob%2Fmaster%2Fsrc%2Fpages%2FPlantDetails.tsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on'
+      }
+    ]
   },
   {
     id: 3,
@@ -166,7 +166,7 @@ export const projectsList = [
       'REST',
       'Node',
       'Git',
-      'GitHub',
+      'GitHub'
     ],
 
     features: [
@@ -175,7 +175,7 @@ export const projectsList = [
         title: 'Overview',
         gif: 'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/dynamic-tutorials/overview.gif',
         description: '',
-        codeSnippet: '',
+        codeSnippet: ''
       },
       {
         id: 22,
@@ -183,7 +183,7 @@ export const projectsList = [
         gif: 'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/dynamic-tutorials/add-project.gif',
         description: '',
         codeSnippet:
-          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fdynamic-tutorials-server%2Fblob%2Fmain%2Fsrc%2FUI%2FgroupsActions.js&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fdynamic-tutorials-server%2Fblob%2Fmain%2Fsrc%2FUI%2FgroupsActions.js&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on'
       },
       {
         id: 23,
@@ -191,7 +191,7 @@ export const projectsList = [
         gif: 'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/dynamic-tutorials/add-slides.gif',
         description: '',
         codeSnippet:
-          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fdynamic-tutorials-server%2Fblob%2Fmain%2Fsrc%2FUI%2FslidesEditor.js&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fdynamic-tutorials-server%2Fblob%2Fmain%2Fsrc%2FUI%2FslidesEditor.js&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on'
       },
       {
         id: 24,
@@ -199,9 +199,9 @@ export const projectsList = [
         gif: 'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/dynamic-tutorials/play-slides.gif',
         description: '',
         codeSnippet:
-          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fdynamic-tutorials-server%2Fblob%2Fmain%2Fsrc%2FUI%2FslidesPlayer.js&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
-      },
-    ],
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fdynamic-tutorials-server%2Fblob%2Fmain%2Fsrc%2FUI%2FslidesPlayer.js&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on'
+      }
+    ]
   },
   {
     id: 4,
@@ -225,7 +225,7 @@ export const projectsList = [
       'MySQL',
       'Python',
       'Git',
-      'GitHub',
+      'GitHub'
     ],
     features: [
       {
@@ -234,9 +234,9 @@ export const projectsList = [
         gif: 'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/placeholder.png',
         description: '',
         codeSnippet:
-          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fportfolio-demos%2Fblob%2Fmaster%2Fsrc%2Fcomponents%2FProjectCard.tsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
-      },
-    ],
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fportfolio-demos%2Fblob%2Fmaster%2Fsrc%2Fcomponents%2FProjectCard.tsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on'
+      }
+    ]
   },
   {
     id: 5,
@@ -256,7 +256,7 @@ export const projectsList = [
       'Service Workers',
       'Chrome Extension API',
       'Git',
-      'GitHub',
+      'GitHub'
     ],
     features: [
       {
@@ -265,9 +265,9 @@ export const projectsList = [
         gif: 'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/placeholder.png',
         description: '',
         codeSnippet:
-          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fportfolio-demos%2Fblob%2Fmaster%2Fsrc%2Fcomponents%2FProjectCard.tsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
-      },
-    ],
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fportfolio-demos%2Fblob%2Fmaster%2Fsrc%2Fcomponents%2FProjectCard.tsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on'
+      }
+    ]
   },
   {
     id: 5,
@@ -288,8 +288,65 @@ export const projectsList = [
         gif: 'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/placeholder.png',
         description: '',
         codeSnippet:
-          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fportfolio-demos%2Fblob%2Fmaster%2Fsrc%2Fcomponents%2FProjectCard.tsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on',
-      },
-    ],
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fportfolio-demos%2Fblob%2Fmaster%2Fsrc%2Fcomponents%2FProjectCard.tsx&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on'
+      }
+    ]
   },
-];
+  {
+    id: 6,
+    title: 'Planet Plants',
+    type: 'Full Stack',
+    createdAt: 'MAI 2024',
+    description:
+      "This e-commerce website is the final project for the Web Application Development module of the UAT H.Dip course I'm currently taking. The app is designed to showcase a range of capabilities essential for modern web applications. Connected to a SQL database, it demonstrates user authentication, adding items to a shopping basket, and proceeding to checkout. It also includes robust error handling and incorporates complex JavaScript operations to enhance user experience.",
+    image:
+      'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/planet-plants/cover.png',
+    url: 'https://planet-plants-backend.onrender.com/',
+    repository: 'https://github.com/AladinJmila/planet-plants-backend',
+    techStack: [
+      'Express',
+      'MySQL',
+      'JavaScript',
+      'Handlebars',
+      'REST',
+      'Bootstrap',
+      'Node',
+      'Git',
+      'GitHub'
+    ],
+    features: [
+      {
+        id: 61,
+        title: 'Home',
+        gif: 'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/planet-plants/home.gif',
+        description: '',
+        codeSnippet:
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fplanet-plants-backend%2Fblob%2Fmain%2Fpublic%2Fscripts.js&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on'
+      },
+      {
+        id: 62,
+        title: 'Basket',
+        gif: 'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/planet-plants/basket.gif',
+        description: '',
+        codeSnippet:
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fplanet-plants-backend%2Fblob%2Fmain%2Fviews%2Fbasket.handlebars&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on'
+      },
+      {
+        id: 63,
+        title: 'Plant Details',
+        gif: 'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/planet-plants/plant.gif',
+        description: '',
+        codeSnippet:
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fplanet-plants-backend%2Fblob%2Fmain%2Fviews%2Fplant.handlebars&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on'
+      },
+      {
+        id: 64,
+        title: 'Error Hanlding',
+        gif: 'https://jmila-apps.s3.eu-west-1.amazonaws.com/static-assets/portfolio-demos/planet-plants/error.gif',
+        description: '',
+        codeSnippet:
+          'https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FAladinJmila%2Fplanet-plants-backend%2Fblob%2Fmain%2Fapp.js&style=github-dark-dimmed&type=code&showLineNumbers=on&showFullPath=on'
+      }
+    ]
+  }
+]

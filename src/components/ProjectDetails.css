@@ -37,6 +37,7 @@
   overflow: auto;
   padding: 20px;
   background-color: rgb(19, 19, 19);
+  height: 101%;
 }
 
 .project-details .project-body .project-iframe {
